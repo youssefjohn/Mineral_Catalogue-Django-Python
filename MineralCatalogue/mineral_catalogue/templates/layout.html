@@ -3,10 +3,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}{% endblock %}</title>
+    <title>All About Minerals!</title>
     <link rel="stylesheet" href="{% static 'css/global.css'  %}">
 </head>
 <body>
+    <div class="mineral__container">
+        <img src="{% static "/images/Therock.jpg" %}" alt="">
+        <h1>Youssefs rocks!</h1>
+        <h3>..or are they Minerals?</h3>
+    </div>
 {% block content %}{% endblock %}
 </body>
 </html>

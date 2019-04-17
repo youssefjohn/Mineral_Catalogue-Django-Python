@@ -12,6 +12,7 @@
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/mineral_catalogue/templates" />
+        <option value="$MODULE_DIR$/mineral_catalogue/rocks/templates" />
       </list>
     </option>
   </component>
