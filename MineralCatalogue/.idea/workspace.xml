@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edc0ea43-9659-4933-958e-439456192efc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mineral_catalogue/rocks/migrations/0002_load_mineral_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mineral_catalogue/rocks/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MineralCatalogue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MineralCatalogue.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineral_catalogue/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mineral_catalogue/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineral_catalogue/mineral_catalogue/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mineral_catalogue/mineral_catalogue/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineral_catalogue/rocks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mineral_catalogue/rocks/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineral_catalogue/rocks/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/mineral_catalogue/rocks/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineral_catalogue/rocks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mineral_catalogue/rocks/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineral_catalogue/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/mineral_catalogue/templates/layout.html" afterDir="false" />
-    </list>
+    <list default="true" id="edc0ea43-9659-4933-958e-439456192efc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +179,7 @@
               <item name="MineralCatalogue" type="b2602c69:ProjectViewProjectNode" />
               <item name="MineralCatalogue" type="462c0819:PsiDirectoryNode" />
               <item name="mineral_catalogue" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,7 +253,7 @@
       <workItem from="1554852706134" duration="113000" />
       <workItem from="1554852869979" duration="42000" />
       <workItem from="1554853456532" duration="3485000" />
-      <workItem from="1554927420497" duration="31819000" />
+      <workItem from="1554927420497" duration="33140000" />
     </task>
     <servers />
   </component>
@@ -276,7 +263,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41890000" />
+    <option name="totallyTimeSpent" value="43211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
