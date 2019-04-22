@@ -1,10 +1,12 @@
 from . import views
-from django.urls import path, include
+from django.urls import path
 
+app_name = "rocks"
 
 urlpatterns = [
 
-    path('main_page', views.index, name="index" ),
-    path('<int:pk>/', views.details, name="details"),
+    path('home/', views.index, name="index"),
+    path('home/<int:pk>/', views.details, name="details"),
+    path('home/random', views.random, name="random"),
 
 ]

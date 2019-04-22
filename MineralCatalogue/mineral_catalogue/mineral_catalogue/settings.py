@@ -62,8 +62,13 @@ TEMPLATES = [
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
+                # The line below gave your templates the ability to
+                # use `{{ STATIC_URL }}` without it you cannot use or access STATIC_URL
+                'django.template.context_processors.static',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+
+
             ],
         },
     },
