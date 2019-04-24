@@ -1,3 +1,5 @@
+'''TESTING MODELS AND VIEWS'''
+
 from django.urls import reverse
 from django.test import TestCase, Client
 from .models import Mineral
@@ -8,7 +10,11 @@ from django.utils import timezone
 
 
 class Test_Mineral_Model(TestCase):
-
+    '''BELOW I HAVE TESTED MY MINERAL MODEL.
+       THE FIRST TEST CHECKS TO SEE IF A NEW INSTANCE OF A MODEL
+       CAN BE CREATED. THE SECOND TEST CHECKS WHETHER TWO
+       INSTANCES OF A MODEL ARE UNIQUE AND DIFFERENT FROM ONE ANOTHER
+    '''
     def test_model_creation(self):
         self.a = Mineral.objects.create(name="daa",
                                   image_filename="kasma",
@@ -81,7 +87,10 @@ class Test_Mineral_Model(TestCase):
         self.assertIsInstance(self.b, Mineral)
 
 class Test_views(TestCase):
-
+    '''BELOW I HAVE SET UP MY TESTCASE BY USING CLIENT AND THE REVERSE URL FUNCTION.
+       EACH TESTCASE CHECKS FOR A 200 RESPONSE FROM THE URL AND ALSO CHECKS IF
+       THE CORRECT HTML TEMPLATE HAS BEEN USED.
+    '''
     def setUp(self):
 
 

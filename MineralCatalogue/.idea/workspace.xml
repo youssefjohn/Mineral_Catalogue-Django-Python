@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edc0ea43-9659-4933-958e-439456192efc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/random.html" beforeDir="false" afterPath="$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/random.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mineral_catalogue/rocks/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mineral_catalogue/rocks/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mineral_catalogue/rocks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mineral_catalogue/rocks/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mineral_catalogue/rocks/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/mineral_catalogue/rocks/stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mineral_catalogue/rocks/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/mineral_catalogue/rocks/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineral_catalogue/static/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/mineral_catalogue/static/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mineral_catalogue/rocks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mineral_catalogue/rocks/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mineral_catalogue/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/mineral_catalogue/templates/layout.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -34,51 +35,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mineral_catalogue/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+            <state relative-caret-position="330">
+              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-              <folding>
-                <element signature="e#0#4#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mineral_catalogue/static/css/global.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3405">
-              <caret line="227" column="16" lean-forward="true" selection-start-line="227" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/random.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/details.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -100,26 +62,26 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/rocks/urls.py" />
-        <option value="$PROJECT_DIR$/mineral_catalogue/rocks/admin.py" />
         <option value="$PROJECT_DIR$/rocks/models.py" />
         <option value="$PROJECT_DIR$/rocks/admin.py" />
         <option value="$PROJECT_DIR$/mineral_catalogue/rocks/templates/details.html" />
         <option value="$PROJECT_DIR$/mineral_catalogue/rocks/templates/index.html" />
-        <option value="$PROJECT_DIR$/mineral_catalogue/rocks/models.py" />
         <option value="$PROJECT_DIR$/mineral_catalogue/rocks/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/mineral_catalogue/rocks/migrations/0002_load_mineral_data.py" />
         <option value="$PROJECT_DIR$/mineral_catalogue/mineral_catalogue/settings.py" />
         <option value="$PROJECT_DIR$/mineral_catalogue/rocks/quick.py" />
-        <option value="$PROJECT_DIR$/mineral_catalogue/rocks/views.py" />
-        <option value="$PROJECT_DIR$/mineral_catalogue/rocks/stats.py" />
         <option value="$PROJECT_DIR$/mineral_catalogue/mineral_catalogue/urls.py" />
         <option value="$PROJECT_DIR$/mineral_catalogue/rocks/urls.py" />
+        <option value="$PROJECT_DIR$/mineral_catalogue/static/css/global.css" />
         <option value="$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/details.html" />
-        <option value="$PROJECT_DIR$/mineral_catalogue/rocks/tests.py" />
         <option value="$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/random.html" />
+        <option value="$PROJECT_DIR$/mineral_catalogue/rocks/tests.py" />
+        <option value="$PROJECT_DIR$/mineral_catalogue/rocks/views.py" />
+        <option value="$PROJECT_DIR$/mineral_catalogue/rocks/stats.py" />
+        <option value="$PROJECT_DIR$/mineral_catalogue/rocks/models.py" />
+        <option value="$PROJECT_DIR$/mineral_catalogue/rocks/admin.py" />
         <option value="$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/index.html" />
         <option value="$PROJECT_DIR$/mineral_catalogue/templates/layout.html" />
-        <option value="$PROJECT_DIR$/mineral_catalogue/static/css/global.css" />
       </list>
     </option>
   </component>
@@ -166,6 +128,13 @@
               <item name="MineralCatalogue" type="462c0819:PsiDirectoryNode" />
               <item name="mineral_catalogue" type="462c0819:PsiDirectoryNode" />
               <item name="rocks" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MineralCatalogue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MineralCatalogue" type="462c0819:PsiDirectoryNode" />
+              <item name="mineral_catalogue" type="462c0819:PsiDirectoryNode" />
+              <item name="rocks" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -181,13 +150,6 @@
               <item name="MineralCatalogue" type="462c0819:PsiDirectoryNode" />
               <item name="mineral_catalogue" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MineralCatalogue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MineralCatalogue" type="462c0819:PsiDirectoryNode" />
-              <item name="mineral_catalogue" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MineralCatalogue" type="b2602c69:ProjectViewProjectNode" />
@@ -315,7 +277,7 @@
       <workItem from="1554927420497" duration="45910000" />
       <workItem from="1555692580933" duration="4716000" />
       <workItem from="1555711758245" duration="2497000" />
-      <workItem from="1555931811260" duration="17229000" />
+      <workItem from="1555931811260" duration="19335000" />
     </task>
     <servers />
   </component>
@@ -325,7 +287,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80423000" />
+    <option name="totallyTimeSpent" value="82529000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,7 +302,7 @@
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -354,7 +316,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.39858156" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25106382" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -368,16 +330,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mineral_catalogue/manage.py" />
-    <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -386,60 +338,50 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/quick.py" />
-    <entry file="file://$PROJECT_DIR$/mineral_catalogue/mineral_catalogue/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-639">
-          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/migrations/0002_load_mineral_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mineral_catalogue/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/apps.py">
+    <entry file="file://$PROJECT_DIR$/mineral_catalogue/static/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/stats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="3405">
+          <caret line="227" column="16" lean-forward="true" selection-start-line="227" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="1395">
+          <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
           <folding>
             <element signature="e#0#4#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/random.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+          <folding>
+            <element signature="e#1234#1258#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mineral_catalogue/mineral_catalogue/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#641#673#0" expanded="true" />
           </folding>
@@ -448,8 +390,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="705">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
@@ -463,24 +405,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/random.html">
+    <entry file="file://$PROJECT_DIR$/mineral_catalogue/mineral_catalogue/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="960">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/index.html">
+    <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        <state relative-caret-position="105">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/stats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/migrations/0002_load_mineral_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mineral_catalogue/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        <state relative-caret-position="330">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -488,17 +464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mineral_catalogue/static/css/global.css">
+    <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3405">
-          <caret line="227" column="16" lean-forward="true" selection-start-line="227" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mineral_catalogue/rocks/templates/rocks/details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

@@ -3,6 +3,10 @@ from django.db import models
 # Create your models here.
 
 class Mineral(models.Model):
+    '''
+        THE MINERAL MODEL TAKES IN CHARACTERS, BUT IF THE FIELD IS LEFT EMPTY,
+        BLANK=TRUE ALLOWS IT TO BE EMPTY.
+    '''
 
     name = models.CharField(max_length=128, blank=True)
     image_filename = models.CharField(max_length=255, blank=True)

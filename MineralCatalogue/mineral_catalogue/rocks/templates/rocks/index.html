@@ -4,19 +4,15 @@
 
 {% block content %}
 
-        <div class="bounds mineral__container">
 
-            <a href="{% url "rocks:random" %}">Generate Random Mineral!!!</a>
-
-        </div>
 
     <div class="bounds">
         <div class="grid-100">
             <ul class="mineral__container">
                 {% for mineral in mineral_names %}
-
-                    <a class = "minerals__anchor" href="{% url "rocks:details" pk=mineral.id %}">{{ mineral.name }}</a>
-
+                    <li class="minerals__item"></li>
+                        <a class = "minerals__anchor" href="{% url "rocks:details" pk=mineral.id %}">{{ mineral.name }}</a>
+                    </li>
                 {% endfor %}
             </ul>
         </div>
